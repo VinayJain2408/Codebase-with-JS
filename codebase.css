@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+}
+.topic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 5rem;
+    margin: 2rem;
+}
+.topic .topic-left h1{
+    color: rgb(4, 4, 169);
+    font-size: 35px;
+   
+}
+.topic .topic-left h1 span{
+    color:black;
+}
+.topic .topic-right a{
+    margin-left: 3rem;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 800;
+}
+.topic .topic-right a:last-child{
+    background-color: blue;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.hire{
+    display: flex;
+}
+.hire .hire-left{
+    width: 50%;
+    margin:5rem 7rem;
+}
+.hire .hire-left h1{
+    font-size: 50px;
+}
+.hire .hire-left p{ 
+    font-size: 14px;
+    margin: 18px 0 ;
+}
+.hire .hire-left p span{
+    color: #fff;
+    background-color: blue;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+.hire .hire-right{
+    width: 50%;
+    margin-right: 2rem;
+}
+.text{
+    text-align: center;
+    margin-top: 7rem;
+    font-size: 12px;
+}
+.company{
+    margin-left: 20rem;
+    margin-top: 5rem;
+}
+.company a{
+    height: 40px;
+    width: 50px;
+    
+    padding: 25px;
+}
+.company a img{
+    height: 80px;
+    width: 100px;
+    /* padding-left: 2rem;   */
+}
+.talent{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 7rem;
+   font-weight: 800;
+   margin-bottom: 5rem;
+}
+.review{
+    display: flex;
+   width: 70%;
+   margin: 0 auto;
+}
+.review .person {
+    width: 30%;
+    padding: 2rem;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 20px;
+    margin: 0 1.5%;
+}
+
+.person img{
+    height: 100px;
+    width: 100px;
+}
+.person ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.person ul li{
+    list-style-type: none;
+   background-color: rgb(32, 31, 31);
+   color: #fff;
+   margin: 5px;
+   border-radius: 20px;
+   padding: 5px;
+}
