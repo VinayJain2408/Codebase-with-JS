@@ -63,18 +63,20 @@
     font-size: 12px;
 }
 .company{
-    margin-left: 20rem;
-    margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.company a{
+/* .company a{
     height: 40px;
     width: 50px;
     
     padding: 25px;
-}
+} */
 .company a img{
-    height: 80px;
-    width: 100px;
+    /* height: 80px; */
+    margin: 0 1.5rem;
+    width: 150px;
     /* padding-left: 2rem;   */
 }
 .talent{
@@ -137,7 +139,7 @@
 }
 .fast{
     width: 42%;
-    height: 300px;
+    height: 350px;
     color: #fff;
     text-align: center;
     border: 1px solid;
@@ -146,12 +148,12 @@
     background-color: rgba(0,0,0,.5)
 }
 .fast .image{
-    width: 50px;
-    height: 80px;
+    width: 100px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1.5rem 0 2rem 8.5rem;
+    margin: 4rem 0 4rem 7rem;
  
 }
 .fast .image img{
@@ -166,4 +168,33 @@
     margin: 5px;
     text-align: center;
     font-size: 20px;
+}
+.imp{
+    background-color: rgb(178, 245, 223);
+}
+.imp .talent{
+    width: 70%;
+    margin: 0 auto;
+    
+}
+.imp .talent h1{
+    text-align: center;
+    padding-top: 5rem;
+}
+.web-develop{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 5rem;
+}
+.web-develop .develop{
+    width: 42%;
+    /* height: 300px; */
+    text-align: left;
+    margin: 1rem 2rem;
+    font-size: 16px;
+}
+.web-develop .develop img{
+    width: 70px;
+    margin-bottom: 2rem;
+
 }
