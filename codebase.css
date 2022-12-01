@@ -136,8 +136,8 @@
     margin:0 auto ;
 }
 .fast{
-    width: 45%;
-    height: 270px;
+    width: 42%;
+    height: 300px;
     color: #fff;
     text-align: center;
     border: 1px solid;
@@ -151,7 +151,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   margin-bottom: 2rem;
+    margin: 1.5rem 0 2rem 8.5rem;
+ 
 }
 .fast .image img{
     width: 100%;
