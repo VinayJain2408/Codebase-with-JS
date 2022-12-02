@@ -76,8 +76,11 @@
 .company a img{
     /* height: 80px; */
     margin: 0 1.5rem;
-    width: 150px;
+    width: 170px;
     /* padding-left: 2rem;   */
+}
+.company  .large img{
+    width: 80px;
 }
 .talent{
     text-align: center;
@@ -90,6 +93,7 @@
     display: flex;
    width: 70%;
    margin: 0 auto;
+   text-align: center;
 }
 .review .person {
     width: 30%;
@@ -121,7 +125,8 @@
     padding: 4rem 2rem;
     width: 100%;
     margin-top: 7rem;
-  
+    text-align: center;
+    
 }
 .walpaper h1{
     color: #fff;
@@ -134,6 +139,7 @@
     width: 60%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     /* margin-top: 4rem; */
     margin:0 auto ;
 }
@@ -149,7 +155,7 @@
 }
 .fast .image{
     width: 100px;
-    height: 60px;
+    /* height: 60px; */
     display: flex;
     justify-content: center;
     align-items: center;
